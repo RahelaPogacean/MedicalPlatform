@@ -1,0 +1,8 @@
+version: '3'
+
+services:
+
+  tomcat-db-api:
+    image: be-image
+    ports:
+       - "8080:8080"
